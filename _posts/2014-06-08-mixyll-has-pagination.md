@@ -6,4 +6,12 @@ summary:    This is an empty post to test my blog.
 categories: jekyll mixyll
 ---
 
-This is an empty post to test my blog.
+my first post
+================
+
+``` python
+print('hello world')
+```
+
+    ## hello world
+
