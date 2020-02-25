@@ -1,10 +1,9 @@
 # Site settings
-title:       Mixyll
-email:       hello@saikiransripada.com
-author:      Sai Kiran Sripada
-description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-baseurl:     ""
-url:         "https://mixyll.saikiransripada.com"
+title:       Fayez Alshehri
+email:       Fayez-als@live.com
+author:      Fayez Alshehri
+description: "Aspiring Data Analyst"
+url:         "https://fayez-als.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -25,9 +24,9 @@ post_preview_image: false
 disqus_shortname:
 
 # Social icons
-github_username: saikiransripada
-twitter_username: wp_user
-linkedin_username: saikiransripada
+github_username: fayez-als
+twitter_username: 
+linkedin_username: fayez-als
 
 # Post sharing icons
 show_sharing_icons: true
