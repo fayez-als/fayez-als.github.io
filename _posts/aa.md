@@ -1,31 +1,29 @@
-## ${\textbf{Libraries}}$
+###Customers Data segmentation using PCA and K-means
+
+This is a quick project where I'll demonstrate the correct way to segment customers data
+for further analysis
+
+The purpose of customers analytics is to provide new usefull insights, lets see how we can approach this task using python.
 
 
 ```python
 import numpy as np
 import pandas as pd
 import scipy
-
-#These are the visualization libraries. Matplotlib is standard and is what most people use.
-#Seaborn works on top of matplotlib, as we mentioned in the course.
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
-#For standardizing features. We'll use the StandardScaler module.
 from sklearn.preprocessing import StandardScaler
-#Hierarchical clustering with the Sci Py library. We'll use the dendrogram and linkage modules.
 from scipy.cluster.hierarchy import dendrogram, linkage
-#Sk learn is one of the most widely used libraries for machine learning. We'll use the k means and pca modules.
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 ```
 
-## ${\textbf{Import Data}}$
+
 
 
 ```python
-# Load the data, contained in the segmentation data csv file.
-df_segmentation = pd.read_csv('segmentation data.csv', index_col = 0)
+df = pd.read_csv('segmentation data.csv', index_col = 0)
 ```
 
 ## ${\textbf{Explore Data}}$
@@ -34,12 +32,10 @@ df_segmentation = pd.read_csv('segmentation data.csv', index_col = 0)
 ```python
 # Descriptive analysis of the data set. Here we just look at the data to gain some insight. 
 # We do not apply any transformations or changes to the data.
-df_segmentation.head()
+df.head()
 ```
 
-df_segmentation.describe()
 
-## ${\textbf{Correlation Estimate}}$
 
 
 ```python
