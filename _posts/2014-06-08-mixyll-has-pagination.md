@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Mixyll has Pagination
-date:       2014-06-08 11:21:29
-summary:    This is an empty post to illustrate the pagination component with Mixyll.
+title:      My First Post
+date:       2020-02-25 11:21:29
+summary:    This is an empty post to test my blog.
 categories: jekyll mixyll
 ---
 
-This is an empty post to illustrate the pagination component with Mixyll.
+This is an empty post to test my blog.
