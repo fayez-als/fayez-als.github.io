@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Mixyll
+title: About Me
 permalink: /about/
 tags: about
 ---
