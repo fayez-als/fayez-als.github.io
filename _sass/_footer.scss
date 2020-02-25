@@ -16,6 +16,7 @@
   -webkit-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
+  padding-bottom: $h1-responsive-max;
 }
 
 footer {
@@ -24,6 +25,14 @@ footer {
   color: $footer-color;
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
-  padding: $footer-padding;
+  padding: $space-2 $footer-padding;
   text-align: center;
+}
+
+footer .measure {
+  line-height: $space-2;
+}
+
+footer small {
+  font-family: $heading-font-family;
 }

@@ -3,7 +3,17 @@
   padding-bottom: $space-2;
 }
 
-.site-header a {
+.share-page {
+  padding: $space-2 0;
+}
+
+.share-links a {
+  margin: 0 0.2em;
+}
+
+.site-header a,
+.social-icons a,
+.share-links a {
   color: $header-color;
   font-size: $h3;
   font-weight: $header-font-weight;
@@ -12,10 +22,6 @@
 
 .site-header .site-title {
   font-size: $h2;
-}
-
-.site-nav {
-  padding-top: $nav-padding;
 }
 
 .site-header nav a {
@@ -44,7 +50,9 @@
 .site-header a:hover,
 .posts .post a:hover .post-meta,
 .posts .post a:hover .post-title,
-.posts .post a:hover .post-summary {
+.posts .post a:hover .post-summary,
+.social-icons a:hover,
+.share-links a:hover {
   opacity: 0.88;
 }
 

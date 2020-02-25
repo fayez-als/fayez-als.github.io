@@ -1,25 +1,22 @@
-# Pixyll
+# Mixyll [![Jekyll Themes Shield](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com/mixyll/)
 
-[pixyll.com](http://www.pixyll.com)
+[Mixyll](https://mixyll.saikiransripada.com/)
 
-![Pixyll screenshot](./screenshot.png)
+![Mixyll screenshot](https://mixyll.saikiransripada.com/screenshot.png)
 
-Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
+Mixyll (minimal version of [Pixyll](https://github.com/johno/pixyll)) is a simple, beautiful theme for Jekyll theme that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
 
 It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
-
-中文版 <https://github.com/ee0703/pixyll-zh-cn>.
+This Jekyll theme was originally crafted by [John Otander](http://johnotander.com) as [Pixyll](https://github.com/johno/pixyll) and modified by [Sai Kiran Sripada](https://www.saikiransripada.com/).
 
 ## Getting Started
 
 If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
 
 ```
-$ git clone git@github.com:johnotander/pixyll.git
-$ cd pixyll
+$ git clone git@github.com:saikiransripada/mixyll.git
+$ cd mixyll
 $ gem install bundler # If you don't have bundler installed
 $ bundle install
 ```
@@ -35,17 +32,17 @@ Fork the repo, and then clone it so you've got the code locally.
 
 ### Modify the `_config.yml`
 
-The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
+The `_config.yml` located in the root of the Mixyll directory contains all of the configuration details
 for the Jekyll site. The defaults are:
 
 ```yml
 # Site settings
-title: Pixyll
+title: Mixyll
 email: your_email@example.com
-author: John Otander
+author: Sai Kiran Sripada
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl: ""
-url: "http://pixyll.com"
+url: "https://mixyll.saikiransripada.com/"
 
 # Build settings
 markdown: kramdown
@@ -77,7 +74,7 @@ This will require you to modify the `_config.yml` like so:
 # Site settings
 title: Repo Name
 email: your_email@example.com
-author: John Otander
+author: Sai Kiran Sripada
 description: "Repo description"
 baseurl: "/repo-name"
 url: "http://github-username.github.io"
@@ -122,7 +119,7 @@ To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) wi
 
 ### Customizing the CSS
 
-All variables can be found in the `_sass/_variables.scss` file, toggle these as you'd like to change the look and feel of Pixyll.
+All variables can be found in the `_sass/_variables.scss` file, toggle these as you'd like to change the look and feel of Mixyll.
 
 ### Page Animation
 
@@ -140,10 +137,6 @@ If you would like to add a [fade-in-down effect](http://daneden.github.io/animat
 ```
 
 See [documentation](http://bryanbraun.github.io/anchorjs/#basic-usage) for more options.
-
-### Put in a Pixyll Plug
-
-If you want to give credit to the Pixyll theme with a link to <http://pixyll.com> or my personal website <http://johnotander.com> somewhere, that'd be awesome. No worries if you don't.
 
 ### Web analytics and search engines
 
@@ -169,26 +162,26 @@ meta_robots: nofollow
 meta_robots: noindex,follow
 ```
 
-In order to get more information about your website's status in search engines, you can register it in [Google Search Console](https://www.google.com/webmasters/tools/home) and/or [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster). Both these tools will ask you to authorize your website with them and there are couple of ways to do that. Pixyll supports verification via meta tags - just fill in values for `google_verification` and/or `bing_verification` in `_config.yml`, the verification strings and meta tags will then be added automatically.
+In order to get more information about your website's status in search engines, you can register it in [Google Search Console](https://www.google.com/webmasters/tools/home) and/or [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster). Both these tools will ask you to authorize your website with them and there are couple of ways to do that. Mixyll supports verification via meta tags - just fill in values for `google_verification` and/or `bing_verification` in `_config.yml`, the verification strings and meta tags will then be added automatically.
 
-If search engine optimization is your thing, you can also set up `meta_description` values for each page/post. By default Pixyll uses `summary` to populate the `<meta name="description" content="...">` tag and falls back to `description` from `_config.yml` if `summary` is not present in page/post's front matter. The `summary` is also used for generating Open Graph tags. Why would you want to use a dedicated variable for meta description? Because character limit to properly display this description in search results (as a snippet) is way smaller than in Open Graph. It is recommended to keep it at 155-160 characters, for more in-depth info read [this article](https://moz.com/blog/i-cant-drive-155-meta-descriptions-in-2015).
+If search engine optimization is your thing, you can also set up `meta_description` values for each page/post. By default Mixyll uses `summary` to populate the `<meta name="description" content="...">` tag and falls back to `description` from `_config.yml` if `summary` is not present in page/post's front matter. The `summary` is also used for generating Open Graph tags. Why would you want to use a dedicated variable for meta description? Because character limit to properly display this description in search results (as a snippet) is way smaller than in Open Graph. It is recommended to keep it at 155-160 characters, for more in-depth info read [this article](https://moz.com/blog/i-cant-drive-155-meta-descriptions-in-2015).
 
 And lastly - if you happen to write in language other than English be sure to change `og_locale` in `_config.yml` to reflect it.
 
 ### Enjoy
 
-I hope you enjoy using Pixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/johnotander/pixyll/issues). I'd love to help.
+I hope you enjoy using Mixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/saikiransripada/mixyll/issues). I'd love to help.
 
-## Upgrading Pixyll
+## Upgrading Mixyll
 
-Pixyll is always being improved by its users, so sometimes one may need to upgrade.
+Mixyll is always being improved by its users, so sometimes one may need to upgrade.
 
 #### Ensure there's an upstream remote
 
 If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
 
 ```
-git remote add upstream https://github.com/johnotander/pixyll.git
+git remote add upstream https://github.com/saikiransripada/mixyll.git
 ```
 
 #### Pull in the latest changes
@@ -201,6 +194,7 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 
 ## Thanks to the following
 
+* [Pixyll](https://github.com/johno/pixyll)
 * [BASSCSS](http://basscss.com)
 * [Jekyll](http://jekyllrb.com)
 * [Refills](http://refills.bourbon.io/)
@@ -214,7 +208,3 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-## Forking
-
-There is a [guide to forking Pixyll](http://pixyll.com/jekyll/pixyll/2019/01/26/guide-to-forking-pixyll/).

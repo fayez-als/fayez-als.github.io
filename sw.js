@@ -1,13 +1,13 @@
 ---
 layout: null
 ---
-var CACHE_NAME = "pixyll2-{{site.time | date: '%Y%m%d%H%M%S'}}";
+var CACHE_NAME = "saikiransripada-{{site.time | date: '%Y%m%d%H%M%S'}}";
 
 self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "{{ '/css/pixyll.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
+        "{{ '/css/style.css' | relative_url }}?{{ site.time | date: '%Y%m%d%H%M' }}",
         "{{ '/' | relative_url }}"
       ]);
     })
