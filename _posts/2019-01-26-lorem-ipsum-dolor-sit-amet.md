@@ -78,7 +78,7 @@ plt.ylabel('Income')
 plt.title('Visualization of raw data')
 ```
 
-<img src="/_posts/asas_files/figure-markdown_github/unnamed-chunk-3-1.png" width="1152" />
+<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-3-1.png" width="1152" />
 
 ### Standardization
 
@@ -110,7 +110,7 @@ dendrogram(hier_clust,
 plt.show()
 ```
 
-<img src="/asas_files/figure-markdown_github/unnamed-chunk-5-1.png" width="1152" />
+<img src="/blob/master/asas_files/figure-markdown_github/unnamed-chunk-5-1.png" width="1152" />
 
 ### K-means Clustering with PCA
 
@@ -178,7 +178,7 @@ plt.yticks([0, 1, 2],
 plt.show()
 ```
 
-<img src="/_posts/asas_files/figure-markdown_github/unnamed-chunk-8-1.png" width="1152" />
+<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-8-1.png" width="1152" />
 
 ### Applying our PCA model to the dataset and choosing the correct number of kmean clusters
 
@@ -249,7 +249,7 @@ plt.title('K-means with PCA Clustering')
 plt.show()
 ```
 
-<img src="/_posts/asas_files/figure-markdown_github/unnamed-chunk-9-1.png" width="960" /> 4 clusters seems to be the right number to choose
+<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-9-1.png" width="960" /> 4 clusters seems to be the right number to choose
 
 ``` python
 kmeans_pca = KMeans(n_clusters = 4, init = 'k-means++', random_state = 42)
@@ -346,7 +346,7 @@ plt.title('Clusters by PCA Components')
 plt.show()
 ```
 
-<img src="/_posts/asas_files/figure-markdown_github/unnamed-chunk-12-1.png" width="960" />
+<img src="/blob/master/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-12-1.png" width="960" />
 
 Final note
 ----------
