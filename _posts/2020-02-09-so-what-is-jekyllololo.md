@@ -7,11 +7,6 @@ summary:    Customers Data segmentation using PCA and K-means
 ---
 
 my first post
-
-
-
-
-my first post
 ================
 
 ### Customers Data segmentation using PCA and K-means
