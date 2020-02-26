@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      My First Post
+title:      Customers Analytics
 date:       2020-02-25 11:21:29
-summary:    This is an empty post to test my blog.
+summary:    Customers Data segmentation using PCA and K-means.
 categories: jekyll mixyll
 ---
 
