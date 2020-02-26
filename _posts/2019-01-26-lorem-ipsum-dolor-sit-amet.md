@@ -60,7 +60,7 @@ df = full[['Sex', 'Marital status', 'Age', 'Education', 'Income','Occupation', '
 
     ## [Text(0.5, 0, 'Sex'), Text(1.5, 0, 'Marital status'), Text(2.5, 0, 'Age'), Text(3.5, 0, 'Education'), Text(4.5, 0, 'Income'), Text(5.5, 0, 'Occupation'), Text(6.5, 0, 'Settlement size')]
 
-<img src="/asas_files/figure-markdown_github/unnamed-chunk-2-1.png" width="672" angle=90 style="display: block; margin: auto;" /> This heatmap shows basic correlations informations: 1. Age and Education are positively correlated 2. Occupation and income are correlated 3.Women are slightly more educated then men
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-2-1.png" width="672" angle=90 style="display: block; margin: auto;" /> This heatmap shows basic correlations informations: 1. Age and Education are positively correlated 2. Occupation and income are correlated 3.Women are slightly more educated then men
 
 ... non of these can be considered as an insight... it can be deducted based on intuition.
 
@@ -78,7 +78,7 @@ plt.ylabel('Income')
 plt.title('Visualization of raw data')
 ```
 
-<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-3-1.png" width="1152" />
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-3-1.png" width="1152" />
 
 ### Standardization
 
@@ -110,7 +110,7 @@ dendrogram(hier_clust,
 plt.show()
 ```
 
-<img src="/blob/master/asas_files/figure-markdown_github/unnamed-chunk-5-1.png" width="1152" />
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-5-1.png" width="1152" />
 
 ### K-means Clustering with PCA
 
@@ -131,7 +131,7 @@ plt.ylabel('Cumulative Explained Variance')
 plt.show()
 ```
 
-<img src="/_posts/asas_files/figure-markdown_github/unnamed-chunk-6-1.png" width="1152" />
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-6-1.png" width="1152" />
 
 Generally, we want to keep around 80-90% of the explained variance, here I chose 3 components
 
@@ -178,7 +178,7 @@ plt.yticks([0, 1, 2],
 plt.show()
 ```
 
-<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-8-1.png" width="1152" />
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-8-1.png" width="1152" />
 
 ### Applying our PCA model to the dataset and choosing the correct number of kmean clusters
 
@@ -249,7 +249,7 @@ plt.title('K-means with PCA Clustering')
 plt.show()
 ```
 
-<img src="/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-9-1.png" width="960" /> 4 clusters seems to be the right number to choose
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-9-1.png" width="960" /> 4 clusters seems to be the right number to choose
 
 ``` python
 kmeans_pca = KMeans(n_clusters = 4, init = 'k-means++', random_state = 42)
@@ -346,7 +346,7 @@ plt.title('Clusters by PCA Components')
 plt.show()
 ```
 
-<img src="/blob/master/blob/master/_posts/asas_files/figure-markdown_github/unnamed-chunk-12-1.png" width="960" />
+<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-12-1.png" width="960" />
 
 Final note
 ----------
@@ -354,4 +354,3 @@ Final note
 The final clustered data set can be further analysed with descriptive statisticals methods, but I will stop here. I hope this mini project was informative and showed the correct way in clustering customers data.
 
 ### Fayez Alshehri
-
