@@ -209,37 +209,7 @@ for i in range(1,11):
     
 ```
 
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=1, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=2, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=3, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=4, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=5, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=6, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=7, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=8, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=9, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-    ## KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
-    ##        n_clusters=10, n_init=10, n_jobs=None, precompute_distances='auto',
-    ##        random_state=42, tol=0.0001, verbose=0)
-
+    
 ``` python
 plt.figure(figsize = (10,8))
 plt.plot(range(1, 11), wcss, marker = 'o', linestyle = '--')
