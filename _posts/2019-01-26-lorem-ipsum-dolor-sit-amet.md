@@ -59,8 +59,9 @@ df = full[['Sex', 'Marital status', 'Age', 'Education', 'Income','Occupation', '
     ## [Text(0, 0.5, 'Sex'), Text(0, 1.5, 'Marital status'), Text(0, 2.5, 'Age'), Text(0, 3.5, 'Education'), Text(0, 4.5, 'Income'), Text(0, 5.5, 'Occupation'), Text(0, 6.5, 'Settlement size')]
 
     ## [Text(0.5, 0, 'Sex'), Text(1.5, 0, 'Marital status'), Text(2.5, 0, 'Age'), Text(3.5, 0, 'Education'), Text(4.5, 0, 'Income'), Text(5.5, 0, 'Occupation'), Text(6.5, 0, 'Settlement size')]
-
-<img src="C:/Users/Fayez/Documents/asas_files/figure-markdown_github/unnamed-chunk-2-1.png" width="672" angle=90 style="display: block; margin: auto;" /> This heatmap shows basic correlations informations: 1. Age and Education are positively correlated 2. Occupation and income are correlated 3.Women are slightly more educated then men
+    
+<img src="/asas_files/figure-markdown_github/unnamed-chunk-2-1.png" width="672" />
+This heatmap shows basic correlations informations: 1. Age and Education are positively correlated 2. Occupation and income are correlated 3.Women are slightly more educated then men
 
 ... non of these can be considered as an insight... it can be deducted based on intuition.
 
