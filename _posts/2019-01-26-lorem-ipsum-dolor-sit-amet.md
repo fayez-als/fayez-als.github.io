@@ -278,7 +278,7 @@ df_segm_pca_kmeans_freq['N Obs'] = df_segm_pca_kmeans[['Segment K-means PCA','Se
 df_segm_pca_kmeans_freq['Prop Obs'] = df_segm_pca_kmeans_freq['N Obs'] / df_segm_pca_kmeans_freq['N Obs'].sum()
 ```
 
-Cluster 0 seems to be mostly married females with middle range income and with basic education and age arround 28, we will call this cluster millenials.
+Cluster 0 seems to be mostly married females with middle range income and with basic education and age arround 28, we will call this cluster Millennialss.
 
 Cluster 1 is mostly single middle aged men with low education and high income, we will call it Gentles.
 
@@ -287,7 +287,7 @@ Cluster 2 mostly single middle aged men with low education and low income, we wi
 Finally Cluster 3 mostly High educated with the highest income with age around 55, we will call it seniors,
 
 ``` python
-df_segm_pca_kmeans_freq = df_segm_pca_kmeans_freq.rename({0:'Mellineals', 
+df_segm_pca_kmeans_freq = df_segm_pca_kmeans_freq.rename({0:'Millennials', 
                                                           1:'Gentles',
                                                           2:'Unlucky', 
                                                           3:'Seniors'})
@@ -304,7 +304,7 @@ df_segm_pca_kmeans_freq
     ## [4 rows x 12 columns]
 
 ``` python
-df_segm_pca_kmeans['Legend'] = df_segm_pca_kmeans['Segment K-means PCA'].map({0:'Nellineals', 
+df_segm_pca_kmeans['Legend'] = df_segm_pca_kmeans['Segment K-means PCA'].map({0:'Millennials', 
                                                           1:'Gentles',
                                                           2:'Unlucky', 
                                                           3:'Seniors'})
