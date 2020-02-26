@@ -5,16 +5,8 @@ permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was originally crafted by [John Otander](http://johnotander.com) as [Pixyll](https://github.com/johno/pixyll) and modified by [Sai Kiran Sripada](https://www.saikiransripada.com/).
 
-Checkout the [Github repository](https://github.com/saikiransripada/mixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Hello, I am Fayez,an aspiring data scientist from Saudi Arabia, I graduated from medical school but found myself more and more interested about machine learning and artificial intelligence. Everyday I'm learning a new skills and looking for more difficult challenges.
 
-Thanks to the following:
-
-* [Pixyll](https://github.com/johno/pixyll)
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Phone:0541338513
+Email:Fayez-als@live.com
