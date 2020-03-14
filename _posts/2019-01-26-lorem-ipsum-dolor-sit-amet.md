@@ -7,9 +7,7 @@ categories: jekyll mixyll
 ---
 
 
-### Customers Data segmentation using PCA and K-means
-
-This is a quick project where I'll demonstrate the correct way to segment customers data for further analysis. The purpose of customers analytics is to provide new usefull insights.The necessary columns for any customers analysis are the customers personal informations -which can be surveyed through different method such as loyality subscriptions- and a detailed purchase history for each customer. I'll be using python for this analysis, let's start.
+This is a quick project where I'll demonstrate the best way to segment customers data for further analysis. The purpose of customers analytics is to provide new usefull insights.The necessary columns for any customers analysis are the customers personal informations -which can be surveyed through different method such as loyality subscriptions- and a detailed purchase history for each customer. I'll be using python for this analysis, let's start.
 
 #### Here I will load the necessary packages and import the dataset
 
