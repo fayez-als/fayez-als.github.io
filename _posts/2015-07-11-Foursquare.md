@@ -2,7 +2,7 @@
 layout:     post
 title:      Analyzing neighborhoods in Jeddah City.
 date:       2020-03-14
-summary:    retrieving and cleaning venues data through Foursquare API.
+summary:    Retrieving and cleaning venues data through Foursquare API.
 categories: jekyll pixyll
 ---
 
@@ -10,13 +10,6 @@ Often it is difficult to choose neighborhoods when moving to a new city. Given c
 
 
 
-
-```python
-CLIENT_ID = '' # your Foursquare ID
-CLIENT_SECRET = ''# your Foursquare Secret
-VERSION = '20180604'
-LIMIT = 30
-```
     
 
 
@@ -228,4 +221,7 @@ And here are the top cities in jeddah by Venues
 ```python
 
 ```
+
+There are many ways to improve or build upon the original code. I would like to try different clustering algorithms to clusterize the neighborhoods,I would also like to further analyze and manipulate the final clustered city using available demographics and neighborhood data... if I found the time for it.
+
 
