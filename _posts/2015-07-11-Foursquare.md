@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      Analyze neighborhoods in Jeddah City.
+title:      Analyzing neighborhoods in Jeddah City.
 date:       2020-03-14
 summary:    retrieving and cleaning venues data through Foursquare API.
 categories: jekyll pixyll
 ---
 
-Often it is difficult to choose neighborhoods when moving to a new city. Given certain criteria, can more informed decisions be made? in this quick project I'll demonstrate the usage of python to retrieve, clean, aggregate, and analyze differend neighboroods' venues in Jeddah using Foursquare API.
+Often it is difficult to choose neighborhoods when moving to a new city. Given certain criteria, can more informed decisions be made? in this quick project I'll demonstrate how to retrieve, clean, aggregate, and analyze differend neighboroods' venues in Jeddah (or any other cities) using Foursquare API.
 
 
 
@@ -74,31 +74,6 @@ dataframe_filtered.columns = [column.split('.')[-1] for column in dataframe_filt
 neighborhoods = pd.read_csv('Jed.csv',names=['Neighborhood','Latitude','Longitude'])
 neighborhoods['Neighborhood']=neighborhoods['Neighborhood'].str.capitalize()
 ```
-
-
-```python
-
-map_Jeddah = folium.Map(location=[latitude, longitude], zoom_start=11)
-
-
-for lat, lng, label in zip(neighborhoods['Latitude'], neighborhoods['Longitude'], neighborhoods['Neighborhood']):
-    label = folium.Popup(label, parse_html=True)
-    folium.CircleMarker(
-        [lat, lng],
-        radius=5,
-        popup=label,
-        color='blue',
-        fill=True,
-        fill_color='#3186cc',
-        fill_opacity=0.7,
-        parse_html=False).add_to(map_Jeddah)  
-    
-map_Jeddah
-```
-
-
-
-
 ```python
 filtered_columns = ['name', 'categories'] + [col for col in dataframe.columns if col.startswith('location.')] + ['id']
 dataframe_filtered = dataframe.loc[:, filtered_columns]
@@ -113,8 +88,6 @@ def get_category_type(row):
         return None
     else:
         return categories_list[0]['name']
-
-
 
 
 def get_category_type(row):
@@ -202,13 +175,16 @@ for hood in jeddah_grouped['Neighborhood']:
     print('\n')
 ```
 
+
+
+And here are the top cities in jeddah by Venues
     ----Albsateen----
                            venue  freq
-    0                Coffee Shop   4.0
-    1                Pizza Place   3.0
+    0        American Restaurant   6.0
+    1                Pizza Place   4.0
     2             Ice Cream Shop   3.0
     3  Middle Eastern Restaurant   3.0
-    4        American Restaurant   3.0
+    4                Coffee Shop   3.0
     
     
     ----Alkhaldeya----
