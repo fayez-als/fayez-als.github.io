@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Analyzing neighborhoods in Jeddah City.
+title:      Analyzing neighborhoods in Jeddah using Foursquare API
 date:       2020-03-14
-summary:    Retrieving and cleaning venues data through Foursquare API.
+summary:    A short project with the complete source code.
 categories: jekyll pixyll
 ---
 
