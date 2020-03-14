@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Customers Analytics
+title:      Customers Data segmentation using PCA and K-means
 date:       2020-02-25 11:21:29
-summary:    Customers Data segmentation using PCA and K-means.
+summary:    Advance Customers Analytics with Python.
 categories: jekyll mixyll
 ---
 
