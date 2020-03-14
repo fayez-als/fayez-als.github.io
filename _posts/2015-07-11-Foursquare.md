@@ -178,6 +178,7 @@ for hood in jeddah_grouped['Neighborhood']:
 
 
 And here are the top cities in jeddah by Venues
+```python
     ----Albsateen----
                            venue  freq
     0        American Restaurant   6.0
