@@ -224,4 +224,5 @@ And here are the top cities in jeddah by Venues
 
 There are many ways to improve or build upon the original code. I would like to try different clustering algorithms to clusterize the neighborhoods,I would also like to further analyze and manipulate the final clustered city using available demographics and neighborhood data... if I found the time for it.
 
+### Fayez Alshehri
 
